@@ -1,19 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
+import initials from '../imgs/InitialsIcon.png';
+import './Nav.css';
 
-const Nav = (props) => {
+const Nav = () => {
   return (
-    <ul>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
-        <Link to="/about">About</Link>
-      </li>
-      <li>
-        <Link to="/projects">Projects</Link>
-      </li>
-    </ul>
+    <nav className="topnav" >
+      <Link to="/"><img src={initials} alt="Carah Alexander's initials" height="20px"/></Link>
+      <NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>About</NavLink>
+      <NavLink to="/projects" className={({ isActive }) => isActive ? "active" : ""}>Projects</NavLink>
+    </nav>
   );
 }
 
