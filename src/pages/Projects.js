@@ -9,7 +9,7 @@ const Projects = () => {
         <div className="project-body">
           <div className="project-image"></div>
           <div className="project-text">
-            <h1 className="project-title">On Beat</h1>
+            <h2 className="project-title">On Beat</h2>
             <p className="project-description">A web app that generates Spotify playlists of songs with the same BPM</p>
           </div>
         </div>

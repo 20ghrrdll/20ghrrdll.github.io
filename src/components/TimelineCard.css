@@ -1,0 +1,43 @@
+.card{
+  width: 75%;
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+  display: block;
+  position: relative;
+  background: #f00;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+
+.card:before{
+  content: '';
+  position: absolute;
+  left: -15%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.5vw;
+  height: 2.5vw;
+  border: 5px solid var(--dark-blue);
+  border-radius: 50%;
+}
+
+.card .card-body:before{
+  content: '';
+  position: absolute;
+  left: -8.2vw;
+  top: 0;
+  width: 0px;
+  height: 110%;
+  border: 2px solid var(--dark-blue);
+  z-index: -1;
+}
+
+.card-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.responsibility {
+  padding-left: 18px;
+}

@@ -1,34 +1,64 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: var(--white);
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+
+.topnav a{
   float: left;
   display: block;
-  color: #f2f2f2;
-  text-align: center;
   padding: 14px 16px;
+  text-align: center;
   text-decoration: none;
+}
+
+.page {
+  position: relative;
+  color: var(--dark-blue);
   font-size: 17px;
+  margin-left: 10px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 700;
+}
+
+.page:after,  .page:before{
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  width: 0%;
+  height: 2px;
+  margin: 5px 0 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: var(--pink);
+}
+
+.page:after {
+  right: 0;
+}
+
+.page:before {
+  left: 0;
 }
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #04AA6D;
+  background-color: var(--pink);
   color: white;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;
+  font-style: italic;
 }
 
 /* Add a dark background on topnav links and the dropdown button on hover */
-.topnav a:hover {
-  background-color: #555;
-  color: white;
+.page:hover:after, .page:hover:before {
+  width: 50%;
+  opacity: 1;
 }
+
+
 

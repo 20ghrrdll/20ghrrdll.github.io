@@ -1,0 +1,33 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  gap: 40px 20px;
+  align-items: center;
+  justify-items: center;
+  grid-template-areas: 
+  "img description"
+  "link-container link-container";
+}
+
+.greeting {
+  grid-area: img;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greeting img {
+  width: 100%;
+}
+
+.home-container p {
+  grid-area: description;
+}
+
+.link-container {
+  grid-area: link-container;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
