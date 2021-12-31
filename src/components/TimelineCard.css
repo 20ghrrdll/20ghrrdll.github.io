@@ -16,8 +16,8 @@
   left: -15%;
   top: 50%;
   transform: translateY(-50%);
-  width: 2.5vw;
-  height: 2.5vw;
+  width: max(2.5vw, 1rem);
+  height: max(2.5vw, 1rem);
   border: 5px solid var(--dark-blue);
   border-radius: 50%;
 }

@@ -1,5 +1,5 @@
 .App {
   display: block;
-  width: 80%;
-  margin: 50px auto;
+  width: min(80%, 100vh);
+  margin: 100px auto 10%;
 }

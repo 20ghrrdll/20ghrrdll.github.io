@@ -6,7 +6,7 @@ import './Nav.css';
 const Nav = () => {
   return (
     <nav className="topnav" >
-      <Link to="/"><img src={initials} alt="Carah Alexander's initials" height="20px"/></Link>
+      <Link to="/" className="icon"><img src={initials} alt="Carah Alexander's initials"/></Link>
       <NavLink to="/about" className={({ isActive }) => isActive ? "page active" : "page"}>About</NavLink>
       <NavLink to="/projects" className={({ isActive }) => isActive ? "page active" : "page"}>Projects</NavLink>
     </nav>
