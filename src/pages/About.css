@@ -24,7 +24,7 @@
 }
 
 .card:nth-child(7) .card-body:before{
-  height: 43vh;
+  height: 75vh;
 }
 
 .card:after{

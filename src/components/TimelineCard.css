@@ -13,7 +13,7 @@
 .card:before{
   content: '';
   position: absolute;
-  left: -15%;
+  left: -9.7vw;
   top: 50%;
   transform: translateY(-50%);
   width: max(2.5vw, 1rem);
@@ -33,6 +33,18 @@
   z-index: -1;
 }
 
+@media only screen and (max-width: 450px) {
+  .card .card-body:before{
+    left: -7.2vw;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .card:before{
+    left: -10.1vw;
+  }
+}
+
 .card-title {
   font-size: 30px;
   margin-bottom: 20px;
@@ -40,4 +52,14 @@
 
 .responsibility {
   padding-left: 18px;
+}
+
+.card-body h4 {
+  margin-top: 5px;
+  font-size: 1.25rem;
+}
+
+.card-body h2 {
+  font-weight: 700;
+  margin-bottom: 0px;
 }

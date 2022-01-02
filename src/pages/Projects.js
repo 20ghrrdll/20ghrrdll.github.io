@@ -1,20 +1,12 @@
 import React from 'react';
+import "./Projects.css"
 
 const Projects = () => {
   return (
-    <div>
+    <div className="projects">
       <h2>Projects</h2>
-      <div className="project-list">
-      <div className="project">
-        <div className="project-body">
-          <div className="project-image"></div>
-          <div className="project-text">
-            <h4 className="project-title">On Beat</h4>
-            <p className="project-description">A web app that generates Spotify playlists of songs with the same BPM</p>
-          </div>
-        </div>
-      </div>
-      </div>
+        <h4>Coming soon! If you want to see my work in progress, check out my</h4>
+        <a className="social-link" href="https://github.com/20ghrrdll">Github</a>
     </div>
   );
 };

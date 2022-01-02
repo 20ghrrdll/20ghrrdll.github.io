@@ -13,10 +13,14 @@
   display: block;
   text-align: center;
   text-decoration: none;
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 700;
 }
 
 .icon{
-  padding: 7px 25px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
 }
 
 .icon img {
@@ -27,12 +31,13 @@
   position: relative;
   color: var(--dark-blue);
   font-size: 1.25rem;
-  font-family: 'Josefin Slab', serif;
-  font-weight: 700;
-  padding: 15px 30px;
+  padding: 1rem 1.4rem;
 }
 
-.page:after,  .page:before{
+.page:after,
+.page:before,
+.dropdown-page:after,
+.dropdown-page:before{
   content: "";
   position: absolute;
   bottom: 0px;
@@ -45,11 +50,13 @@
   z-index: -1;
 }
 
-.page:after {
+.page:after,
+.dropdown-page:after {
   right: 0;
 }
 
-.page:before {
+.page:before,
+.dropdown-page:before {
   left: 0;
 }
 
@@ -62,9 +69,59 @@
 .page:hover:after,
 .page:hover:before,
 .page:focus:after,
-.page:focus:before  {
+.page:focus:before,
+.dropdown-page:hover:after,
+.dropdown-page:hover:before,
+.dropdown-page:focus:after,
+.dropdown-page:focus:before  {
   width: 50%;
   opacity: 1;
+}
+
+.dropdown-button {
+  display: none;
+}
+
+.dropdown {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .topnav a:not(.icon, .dropdown-page) {
+    display: none;
+  }
+
+  .dropdown-button {
+    display: block;
+    position: absolute;
+    right: 0;
+    background: transparent;
+    margin: 0.4rem 1rem;
+    font-size: 1.75rem;
+    border: none;
+    color: var(--pink)
+  }
+
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 3.4rem;
+    right: 0;
+    background-color: #fefcf6ed;
+    border-bottom: 2px solid var(--yellow);
+    border-top: 2px solid var(--yellow);
+  }
+
+  .dropdown-page {
+    position: relative;
+    color: var(--dark-blue);
+    font-size: 1.25rem;
+    width: 100vw;
+    padding: 1.25rem 0;
+    text-align: center;
+    
+  }
 }
 
 

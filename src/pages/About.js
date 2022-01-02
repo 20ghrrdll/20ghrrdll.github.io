@@ -5,7 +5,7 @@ import './About.css';
 const experience = [
   {
     title: "Squarespace",
-    date: "2019-present",
+    date: "2019 - present",
     description: "Working as a Front-End Software Engineer.",
     responsibilities: [
       "Building and refactoring features in the Styling System of the CMS using Javascript, React and Redux; testing with Jest and Cypress.",
@@ -13,7 +13,7 @@ const experience = [
   },
   {
     title: "Stanford University",
-    date: "2014-2019",
+    date: "2014 - 2019",
     description: "Received my Bachelors and Masters degrees in Computer Science with a focus in Human-Computer Interaction.",
     responsibilities: [
     "Worked as a Teaching Assistant for the 'Introduction to Human-Computer Interaction' and 'Design Thinking Studio' classes",

@@ -1,5 +1,11 @@
 .App {
   display: block;
-  width: min(80%, 100vh);
-  margin: 100px auto 10%;
+  width: 80%;
+  margin: 100px auto 10vw;
+}
+
+@media only screen and (max-width: 800px) {
+  .App {
+    max-width: 600px;
+  }
 }
