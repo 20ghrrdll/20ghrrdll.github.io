@@ -130,6 +130,7 @@
   }
   .link-container a {
     font-size: 1.75rem;
+    width: 9rem;
   }
 }
 

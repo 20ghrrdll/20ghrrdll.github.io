@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
-import initials from '../imgs/InitialsIcon.png';
+import initials from '../imgs/squareInitials.png';
 import './Nav.css';
 
 const Nav = () => {
