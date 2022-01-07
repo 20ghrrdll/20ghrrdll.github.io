@@ -2,6 +2,7 @@
   position: relative;
   bottom: 0;
   width: 100%;
-  margin-top: 0vh;
+  margin-top: 0;
+  margin-bottom: 10px;
   text-align: center;
 }

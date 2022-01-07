@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import TimelineCard from '../components/TimelineCard';
 import './About.css';
 
@@ -49,7 +50,7 @@ const experience = [
   {
     title: "Electronic Arts",
     date: "Summer 2015",
-    description: "Worked as a Pathfinders intern developping a game prototype (under NDA) for the Office of the Chief Creative Officer"
+    description: "Worked as a Pathfinders intern developing a game prototype (under NDA) for the Office of the Chief Creative Officer"
   },
 ];
 
@@ -57,7 +58,7 @@ const About = () => {
   return (
     <>
       <div className="heading">
-        <h2>Education and Experience</h2>
+        <h2>Experience and Education</h2>
       </div>
       {experience.map((experienceContent) => {
         return (
@@ -67,6 +68,7 @@ const About = () => {
           />
         );
       })}
+      <Footer/>
   </>
   );
 }
