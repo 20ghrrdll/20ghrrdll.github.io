@@ -9,7 +9,7 @@ const experience = [
     date: "2019 - present",
     description: "Working as a Front-End Software Engineer.",
     responsibilities: [
-      "Building and refactoring features in the Styling System of the CMS using Javascript, React and Redux; testing with Jest and Cypress.",
+      "Building and refactoring features on the Styling System team using Javascript, React and Redux; testing with Jest and Cypress.",
     ],
   },
   {
