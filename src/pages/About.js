@@ -5,11 +5,21 @@ import './About.css';
 
 const experience = [
   {
-    title: "Squarespace",
-    date: "2019 - present",
-    description: "Working as a Front-End Software Engineer.",
+    title: "Figma",
+    date: "2022 - present",
+    description: "Working as a Full-Stack Software Engineer.",
     responsibilities: [
-      "Building and refactoring features on the Styling System team using Javascript, React and Redux; testing with Jest and Cypress.",
+      "Building features on the Community team using Typescript, React, Ruby and Sinatra",
+    ],
+  },
+  {
+    title: "Squarespace",
+    date: "2019 - 2022",
+    description: "Front-End Software Engineer",
+    responsibilities: [
+      "Built and refactored features on the Styling System team using Javascript, React and Redux; testing with Jest and Cypress.",
+      "Led the Buttons workstream, a 6 month project overhauling the styling capabilities of buttons on Squarespace sites",
+      "Worked on the Trial Experience team building and iterating on the Assistant feature in the CMS"
     ],
   },
   {
