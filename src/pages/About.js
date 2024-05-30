@@ -6,10 +6,12 @@ import './About.css';
 const experience = [
   {
     title: "Figma",
-    date: "2022 - present",
-    description: "Working as a Full-Stack Software Engineer.",
+    date: "2022 - 2023",
+    description: "Full-Stack Software Engineer",
     responsibilities: [
-      "Building features on the Community team using Typescript, React, Ruby and Sinatra",
+     "Built ratings and reviews for Community resources using React, Ruby and Sinatra, enabling over 10k reviews across resources and a statistically significant increase in resource usage.",
+      "Built purchase management and creator stats tools for the Community Monetization release using React, Ruby and Sinatra, earning over 500K for creators in first 6 months.",
+      "Collaborated closely with Product, Design and GTM stakeholders to prioritize quality user experience"
     ],
   },
   {
@@ -25,7 +27,7 @@ const experience = [
   {
     title: "Stanford University",
     date: "2014 - 2019",
-    description: "Received my Bachelors and Masters degrees in Computer Science with a focus in Human-Computer Interaction.",
+    description: "Received Bachelors and Masters degrees in Computer Science with a focus in Human-Computer Interaction.",
     responsibilities: [
     "Worked as a Teaching Assistant for the 'Introduction to Human-Computer Interaction' and 'Design Thinking Studio' classes",
     ],

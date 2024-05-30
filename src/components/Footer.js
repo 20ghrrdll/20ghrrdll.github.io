@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer"><p>Built with React by Carah Alexander © 2022</p></div>
+    <div className="footer"><p>Built with React by Carah Alexander © 2024</p></div>
   );
 }
 

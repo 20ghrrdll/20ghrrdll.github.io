@@ -12,7 +12,7 @@ const Home = () => {
       <div className="intro-container">
         <h1>Hi! I'm Carah</h1>
         <p>I'm a software engineer that's passionate about user experience! I like to build things that make life a little easier.</p>
-        <p> Currently working on the Community team at Figma. M.S. and B.S from Stanford University in Computer Science.</p>
+        <p> Previously worked at Figma and Squarespace. M.S. and B.S from Stanford University in Computer Science.</p>
         <p>If I'm not writing code, I'm hopefully writing, running, or getting tangled in yarn.</p>
         <p> Want to drop me a line? Find me below!</p>
         <div className="link-container">
