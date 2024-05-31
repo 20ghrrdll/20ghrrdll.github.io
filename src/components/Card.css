@@ -10,7 +10,7 @@
   margin-left: 10%;
 }
 
-.card:before{
+.timeline-card:before{
   content: '';
   position: absolute;
   left: -9.7vw;
@@ -22,26 +22,26 @@
   border-radius: 50%;
 }
 
-.card .card-body:before{
+.timeline-card .card-body:before{
   content: '';
   position: absolute;
   left: -8.2vw;
   top: 0;
   width: 0px;
-  height: 110%;
+  height: 150%;
   border: 2px solid var(--dark-blue);
   z-index: -1;
 }
 
 @media only screen and (max-width: 450px) {
-  .card .card-body:before{
-    left: -7.2vw;
+  .card {
+    margin-left: 5%;
   }
-}
-
-@media only screen and (max-width: 320px) {
-  .card:before{
-    left: -10.1vw;
+  .timeline-card:before {
+    visibility: hidden;
+  }
+  .timeline-card .card-body:before{
+    visibility: hidden;
   }
 }
 
