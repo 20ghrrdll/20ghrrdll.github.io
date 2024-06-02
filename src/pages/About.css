@@ -4,11 +4,6 @@
   margin: 50px auto;
 }
 
-.heading{
-  margin-bottom: 50px;
-  margin-left: 10%;
-}
-
 
 .card:nth-child(2) .card-body:before{
   top: -25vh;
@@ -40,7 +35,6 @@
 }
 
 .card:nth-child(odd){
-  outline: 5px solid var(--dark-blue);
   background: var(--white);
   color: var(--black);
 }
@@ -50,7 +44,6 @@
 }
 
 .card:nth-child(even){
-  outline: 5px solid var(--dark-blue);
   background: var(--white);
   color: var(--black);
 }

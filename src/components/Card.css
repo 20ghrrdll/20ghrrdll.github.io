@@ -8,6 +8,7 @@
   background: #f00;
   margin-bottom: 20px;
   margin-left: 10%;
+  outline: 3px solid var(--dark-blue);
 }
 
 .timeline-card:before{
