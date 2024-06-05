@@ -7,7 +7,7 @@
 
 .card:nth-child(2) .card-body:before{
   top: -25vh;
-  height: 100vh;
+  height: 125vh;
 }
 
 @media only screen and (max-width: 450px) {
@@ -49,5 +49,5 @@
 }
 
 .card:nth-child(even):before{
-  background: var(--yellow);
+  background: var(--white);
 }

@@ -34,7 +34,7 @@
   z-index: -1;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 650px) {
   .card {
     margin-left: 5%;
   }
@@ -49,12 +49,6 @@
 .card-title {
   font-size: 30px;
   margin-bottom: 20px;
-}
-
-.card-link {
-  color: var(--dark-blue);
-  display: block;
-  width: fit-content;
 }
 
 .link-card-body {

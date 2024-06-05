@@ -5,7 +5,7 @@
       "title": "Example title 1",
       "date": "May 30, 2024",
       "description": "Here's the first sentence to hook you to this post",
-      "tags": ["Website Update"]
+      "tags": ["Website Update", "React"]
     },
     {
       "id": "test-post-2",

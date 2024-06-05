@@ -1,3 +1,19 @@
-.tags-container {
-  
+.blog-entry-card {
+  width: 80%;
+  display: block;
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  border-bottom: 2px var(--dark-blue) dashed;
+}
+
+.card-link {
+  color: var(--dark-blue);
+  display: block;
+  width: fit-content;
+}
+
+.tag-container {
+  display: flex;
+  grid-gap: 10px;
 }
