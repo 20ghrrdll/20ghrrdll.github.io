@@ -1,0 +1,22 @@
+{
+  "posts" : [
+    {
+      "id": "test-post",
+      "title": "Example title 1",
+      "date": "May 30, 2024",
+      "description": "Here's the first sentence to hook you to this post",
+      "tags": ["Website Update"]
+    },
+    {
+      "id": "test-post-2",
+      "title": "Example title 2",
+      "date": "June 3, 2024",
+      "description": "Here's the first sentence to hook you to this post",
+      "tags": ["Manuscript Mate"]
+    }
+  ],
+  "tags": [
+    "Website Update",
+    "Manuscript Mate"
+  ]
+}

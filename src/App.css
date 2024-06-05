@@ -1,6 +1,6 @@
 .App {
   display: block;
-  width: 80%;
+  width: 85%;
   margin: 100px auto 10vw;
 }
 
@@ -8,9 +8,28 @@
   .App {
     max-width: 600px;
   }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+   margin-top: 125px;
+  }
+
+}
+
+@media only screen and (min-width: 601px) {
+  .heading {
+    margin-top: 200px;
+  }
+
 }
 
 .heading {
   margin-bottom: 50px;
+  margin-left: 10%;
+}
+
+.content {
   margin-left: 10%;
 }

@@ -10,13 +10,12 @@ const Card = ({
   children
 }) => {
 
-  console.log({titleLink})
   return (
     <div className={`card ${isTimeline ? "timeline-card" : ""}`}>
         <div className={`card-body ${isTimeline ? "timeline-card" : ""}`}>
          { titleLink ?
             (
-              <NavLink to={titleLink}>
+              <NavLink to={titleLink} className="card-link">
                 <h2 className={`card-title ${isTimeline ? "timeline-card" : ""}`}>{title}</h2> 
               </NavLink>
             ) : <h2 className={`card-title ${isTimeline ? "timeline-card" : ""}`}>{title}</h2>

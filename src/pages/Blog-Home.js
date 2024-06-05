@@ -1,35 +1,27 @@
-import React, {useState} from 'react';
+import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 import BlogEntryCard from '../components/Blog-Entry-Card'
-import { postSummaries } from '../blog-metadata/post-summaries';
-import { useParams } from 'react-router';
 import Footer from '../components/Footer';
 
-const NUM_POSTS_PER_PAGE = 5
 
 const BlogHome = () => {
-  const {initialPage} = useParams()
-
-   const [pageNum, setPageNum] = useState(parseInt(initialPage))
+  const {postSummaries, tag} = useLoaderData()
   return (
     <div>
       <div className='heading'>
-        <h2>Blog</h2>
+        { tag ? <h2>{`Posts on "${tag}"`}</h2> : <h2>Blog</h2>}
       </div>
-      <BlogList pageNum={pageNum}/>
+      <BlogList postSummaries={postSummaries}/>
       <Footer className="footer"/>
     </div>
   );
 }
 
-const BlogList = ({pageNum}) => {
-  const indexStart = (pageNum - 1) * NUM_POSTS_PER_PAGE
-  const indexEnd = pageNum * NUM_POSTS_PER_PAGE
-
-  const blogSummariesOnPage = postSummaries.slice(indexStart, indexEnd)
+const BlogList = ({postSummaries}) => {
   return (
     <div>
       {
-        blogSummariesOnPage.map((summary, idx) => {
+        postSummaries.map((summary, idx) => {
           return (
           <React.Fragment key={`${summary.id}-${idx}`}>
             <BlogEntryCard {...summary}/>

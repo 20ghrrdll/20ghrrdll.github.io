@@ -1,5 +1,5 @@
 .card{
-  width: 75%;
+  width: 80%;
   padding: 30px;
   border-radius: 10px;
   color: #fff;
@@ -8,7 +8,7 @@
   background: #f00;
   margin-bottom: 20px;
   margin-left: 10%;
-  outline: 3px solid var(--dark-blue);
+  outline: 3px dashed var(--dark-blue);
 }
 
 .timeline-card:before{
@@ -51,6 +51,16 @@
   margin-bottom: 20px;
 }
 
+.card-link {
+  color: var(--dark-blue);
+  display: block;
+  width: fit-content;
+}
+
+.link-card-body {
+  text-decoration: none;
+}
+
 .responsibility {
   padding-left: 18px;
 }
@@ -64,3 +74,4 @@
   font-weight: 700;
   margin-bottom: 0px;
 }
+

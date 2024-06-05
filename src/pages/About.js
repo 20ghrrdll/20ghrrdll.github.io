@@ -6,7 +6,7 @@ import './About.css';
 const experience = [
   {
     title: "Figma",
-    date: "2022 - 2023",
+    date: "June 2022 - December 2023",
     description: "Full-Stack Software Engineer",
     responsibilities: [
      "Built ratings and reviews for Community resources using React, Ruby and Sinatra, enabling over 10k reviews across resources and a statistically significant increase in resource usage.",
@@ -16,7 +16,7 @@ const experience = [
   },
   {
     title: "Squarespace",
-    date: "2019 - 2022",
+    date: "August 2019 - April 2022",
     description: "Front-End Software Engineer",
     responsibilities: [
       "Built and refactored features on the Styling System team using Javascript, React and Redux; testing with Jest and Cypress.",
@@ -26,24 +26,28 @@ const experience = [
   },
   {
     title: "Stanford University",
-    date: "2014 - 2019",
-    description: "Received Bachelors and Masters degrees in Computer Science with a focus in Human-Computer Interaction.",
+    date: "September 2014 - June 2019",
+    description: "Received Bachelors and Masters degrees in Computer Science with a focus in Human-Computer Interaction",
     responsibilities: [
     "Worked as a Teaching Assistant for the 'Introduction to Human-Computer Interaction' and 'Design Thinking Studio' classes",
+    "Worked as a Residential Computer Consultant doing IT support for my dorm",
+    "Member of the Stanford Equestrian 2016 Nationals team, 4th place finish in Team Walk-Trot",
     ],
   },
   {
     title: "Squarespace",
     date: "Summer 2018",
-    description: "Worked as a Front-End Software Engineering Intern.",
+    description: "Front-End Software Engineering Intern",
     responsibilities: [
       "Built an internal tool for the Content Editing and Design teams using React, Redux, Sass and Jest",
+      "Restructured tool as a cross-team collaboration between Content Editing and Content Rendering teams",
+      "Developed extension for internal tool in Hack Week and presented it to entire Engineering org",
     ], 
   },
   {
     title: "Stanford HCI Group",
     date: "Summer 2016 - Spring 2019",
-    description: "Worked as an Undergraduate and Graduate Researcher under Dr. James Landay.",
+    description: "Undergraduate and Graduate Researcher under Dr. James Landay",
     responsibilities: [
     "Developed and tested a research project crowdsourcing writing feedback from children ages 8-12",
     "Built a high fidelity prototype using Meteor JS",
@@ -51,9 +55,9 @@ const experience = [
     ],
   },
   {
-    title: "Facebook - Menlo Park, CA",
+    title: "Facebook",
     date: "Summer 2017",
-    description: "Worked as a Full Stack Software Engineering Intern",
+    description: "Full Stack Software Engineering Intern",
     responsibilities: [
       "Implemented reactions for the Live 360 video team using Hack and React and tested using Jest",
       "Shipped feature and monitored dogfooding with 15,000 employees",

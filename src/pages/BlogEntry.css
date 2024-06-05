@@ -1,0 +1,24 @@
+.back-button {
+  margin-top: 50px;
+  border: none;
+  background: none;
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 900;
+  font-size: 1rem;
+  color: var(--pink);
+  border-bottom: var(--pink) 1px solid;
+}
+
+@media only screen and (max-width: 600px) {
+.post-content {
+    margin-top: 125px;
+  }
+
+}
+
+@media only screen and (min-width: 601px) {
+  .post-content {
+    margin-top: 50px;
+  }
+
+}

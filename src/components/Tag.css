@@ -1,0 +1,11 @@
+.tag-link {
+  text-decoration: none;
+}
+
+.tag {
+  background-color: var(--pink);
+    padding: 7px;
+    width: fit-content;
+    color: var(--white);
+    border-radius: 5px;
+}

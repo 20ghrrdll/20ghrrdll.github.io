@@ -40,15 +40,26 @@ const router = createBrowserRouter(
           element: <Projects />,
         },
         {
-          path: "blog/page/:initialPage",
+          path: "blog/:tag?",
           element: <BlogHome/>,
+          loader: async ({params}) => {
+            const response = await fetch(`${process.env.PUBLIC_URL}/blog-posts/post-summaries.json`);
+            if (!response.ok) {
+              throw new Error(`Failed to fetch post summaries: ${response.statusText}`);
+            }
+            const json = await response.json();
+            let postSummaries = json.posts;
+            if(params.tag) {
+              postSummaries = postSummaries.filter(summary => summary.tags.includes(params.tag))
+            }
+            return { postSummaries, tag: params.tag };
+          }
         },
         {
           path: "/blog/post/:id",
           element: <BlogEntry/>,
           loader: async ({params}) => {
             const response = await fetch(`${process.env.PUBLIC_URL}/blog-posts/posts/${params.id}.md`);
-            console.log(`Fetching markdown file: ${process.env.PUBLIC_URL}/blog-posts/posts/${params.id}.md`);
             if (!response.ok) {
               throw new Error(`Failed to fetch markdown file: ${response.statusText}`);
             }

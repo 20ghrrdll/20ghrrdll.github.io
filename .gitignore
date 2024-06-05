@@ -23,3 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 Notes.txt
+
+/public/blog-posts/template.md
+/public/blog-posts/topics.md
+/public/blog-posts/drafts
