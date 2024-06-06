@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Card.css'
 
 const Card = ({
@@ -15,9 +15,9 @@ const Card = ({
         <div className={`card-body ${isTimeline ? "timeline-card" : ""}`}>
          { titleLink ?
             (
-              <NavLink to={titleLink} className="card-link">
+              <Link to={titleLink} className="card-link">
                 <h2 className={`card-title ${isTimeline ? "timeline-card" : ""}`}>{title}</h2> 
-              </NavLink>
+              </Link>
             ) : <h2 className={`card-title ${isTimeline ? "timeline-card" : ""}`}>{title}</h2>
           }
           <h4> {date}</h4>

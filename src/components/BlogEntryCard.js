@@ -1,17 +1,17 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Tag from './Tag';
 import './Card.css'
-import './Blog-Entry-Card.css'
+import './BlogEntryCard.css'
 
 const BlogEntryCard = ({id, title, date, description, tags}) => {
   const titleLink = `/blog/post/${id}`
   return (
     <div className="blog-entry-card">
       <div className="card-body">
-        <NavLink to={titleLink} className="card-link">
+        <Link to={titleLink} className="card-link">
           <h2 className={`card-title`}>{title}</h2> 
-        </NavLink>
+        </Link>
         <h4> {date}</h4>
         <p>{description}</p>
       <div className= "tag-container">

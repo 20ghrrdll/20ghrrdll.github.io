@@ -1,6 +1,5 @@
 import React from 'react';
 import mePhoto from '../imgs/CircleHomePhoto.png';
-import Footer from '../components/Footer';
 import "./Home.css"
 
 const Home = () => {
@@ -20,7 +19,6 @@ const Home = () => {
           <a className="social-link" href="https://github.com/20ghrrdll">Github</a>
         </div>
       </div>
-      <Footer className="footer"/>
     </div>
   );
 }

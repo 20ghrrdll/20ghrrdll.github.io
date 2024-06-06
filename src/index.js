@@ -9,7 +9,7 @@ import App from './App';
 import About from './pages/About';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-import BlogHome from './pages/Blog-Home'
+import BlogHome from './pages/BlogHome'
 import BlogEntry from "./pages/BlogEntry";
 import NotFound from "./pages/NotFound";
 import './index.css';

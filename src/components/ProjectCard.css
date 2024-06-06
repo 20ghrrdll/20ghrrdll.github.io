@@ -1,0 +1,19 @@
+.project-card {
+  display: flex;
+  grid-gap: 5%;
+  align-items: center;
+  padding-bottom: 40px;
+  border-bottom: 2px var(--dark-blue) dashed;
+}
+
+.see-more-link {
+  text-decoration: none;
+}
+
+.see-more {
+  outline: 2px var(--pink) solid;
+  color: var(--pink);
+  padding: 7px;
+  border-radius: 5px;
+  width: fit-content;
+}

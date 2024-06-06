@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../components/Footer';
 import TimelineCard from '../components/TimelineCard';
 import './About.css';
 
@@ -84,7 +83,6 @@ const About = () => {
           />
         );
       })}
-      <Footer/>
   </>
   );
 }

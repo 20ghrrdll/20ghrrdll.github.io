@@ -1,7 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import BlogEntryCard from '../components/Blog-Entry-Card'
-import Footer from '../components/Footer';
+import BlogEntryCard from '../components/BlogEntryCard'
 
 
 const BlogHome = () => {
@@ -12,7 +11,6 @@ const BlogHome = () => {
         { tag ? <h2>{`Posts on "${tag}"`}</h2> : <h2>Blog</h2>}
       </div>
       <BlogList postSummaries={postSummaries}/>
-      <Footer className="footer"/>
     </div>
   );
 }
