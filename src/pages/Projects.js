@@ -11,14 +11,6 @@ const projectData = [
     projectDescription: "A project to help folks find books they'll love. Stay tuned for more context!",
     seeMoreLink: "/blog/Manuscript Mate",
   },
-  {
-    title: "Manuscript Mate",
-    dates: "April 2024 - present",
-    imgSrc: `${process.env.PUBLIC_URL}/img/projects/UpdatedMMLogo.png`,
-    imgDescription: "Icon for Manuscript Mate. Two books, holding hands, one with a blue bookmark and the other with a green bookmark.",
-    projectDescription: "A project to help folks find books they'll love. Stay tuned for more context!",
-    seeMoreLink: "/blog/Manuscript Mate",
-  },
 ]
 
 const Projects = () => {

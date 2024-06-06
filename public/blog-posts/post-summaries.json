@@ -1,18 +1,18 @@
 {
   "posts" : [
-    {
-      "id": "test-post",
-      "title": "Example title 1",
-      "date": "May 30, 2024",
-      "description": "Here's the first sentence to hook you to this post",
-      "tags": ["Website Update", "React"]
+     {
+      "id": "06-06-24-mm-data-the-first-hurdle",
+      "title": "Data: The first Manuscript Mates hurdle",
+      "date": "June 6, 2024",
+      "description": "Before I could begin with building Manuscript Mate, I needed to know if I could populate it. That proved to be tougher than expected.",
+      "tags": ["Manuscript Mate"]
     },
     {
-      "id": "test-post-2",
-      "title": "Example title 2",
-      "date": "June 3, 2024",
-      "description": "Here's the first sentence to hook you to this post",
-      "tags": ["Manuscript Mate"]
+      "id": "06-05-24-hi-i-have-a-blog",
+      "title": "Hi, I have a blog now.",
+      "date": "June 5, 2024",
+      "description": "It's about time.",
+      "tags": ["Website Update"]
     }
   ],
   "tags": [
