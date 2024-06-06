@@ -8,7 +8,7 @@ const BlogHome = () => {
   return (
     <div>
       <div className='heading'>
-        { tag ? <h2>{`Posts on "${tag}"`}</h2> : <h2>Blog</h2>}
+        { tag ? <h2>{`"${tag}" posts`}</h2> : <h2>Blog</h2>}
       </div>
       <BlogList postSummaries={postSummaries}/>
     </div>

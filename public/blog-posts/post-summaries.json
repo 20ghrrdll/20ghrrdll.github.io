@@ -2,10 +2,10 @@
   "posts" : [
      {
       "id": "06-06-24-mm-data-the-first-hurdle",
-      "title": "Data: The first Manuscript Mates hurdle",
+      "title": "Data: The first 'Manuscript Mates' hurdle",
       "date": "June 6, 2024",
       "description": "Before I could begin with building Manuscript Mate, I needed to know if I could populate it. That proved to be tougher than expected.",
-      "tags": ["Manuscript Mate"]
+      "tags": ["Manuscript Mate", "Javascript"]
     },
     {
       "id": "06-05-24-hi-i-have-a-blog",
@@ -17,6 +17,7 @@
   ],
   "tags": [
     "Website Update",
-    "Manuscript Mate"
+    "Manuscript Mate",
+    "Javascript"
   ]
 }

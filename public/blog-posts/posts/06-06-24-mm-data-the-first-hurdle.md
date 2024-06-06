@@ -1,4 +1,4 @@
-## Data: The first Manuscript Mates hurdle
+## Data: The first 'Manuscript Mates' hurdle
 
 #### June 6, 2024
 
