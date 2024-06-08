@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
   useRouteError,
 } from "react-router-dom";
@@ -20,7 +20,7 @@ function ErrorBoundary() {
   return <div>Dang!</div>;
 }
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   [
     {
       path: "/",
