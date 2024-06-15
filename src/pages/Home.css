@@ -1,20 +1,25 @@
 .home-container {
   display: grid;
-  grid-template-columns: 45% 45%;
   grid-template-rows: auto;
   column-gap: 10%;
-  row-gap: 5%;
+  row-gap: 0%;
   align-items: center;
-  justify-items: center;
-  grid-template-areas: 
-  "img intro-container"
-  "footer footer";
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "img"
+    "intro-container"
+    "footer";
+  margin-top: 15%;
 }
 
 .home-container h1 {
-  font-weight: 500;
+  font-weight: 100;
   color: var(--dark-blue);
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  align-self: flex-start;
+  font-size: 10rem;
 }
 
 .home-container p {
@@ -27,14 +32,6 @@
 
 
 @media only screen and (max-width: 700px) {
-  .home-container {
-    grid-template-columns: 100%;
-    grid-template-areas: 
-    "img"
-    "intro-container"
-    "footer";
-  }
-
   .greeting img {
     max-width: 500px;
   }
@@ -44,17 +41,19 @@
   }
 
   .home-container h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 }
 
 .intro-container {
-  grid-area: intro-container
+  grid-area: intro-container;
+  display: grid;
+  grid-template-columns: 65% 30%;
+  column-gap: 5%;
 }
 
 .intro-container p {
-  font-size: 1.25rem;
-  margin-left: 3rem;
+  font-size: 1.5rem;
 }
 
 .greeting {
@@ -80,23 +79,24 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  align-items: center;
+  flex-direction: column;
 }
-
-
 
 .social-link {
   display: inline;
   text-decoration: none;
-  font-family: 'Shippori Mincho', serif;
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin: 0 1vw;
+  font-family: "Trirong", serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 1vw;
   color: var(--pink);
   border: 2px solid var(--pink);
   padding: 1rem;
   border-radius: 8px;
-  width: 7rem;
+  width: 80%;
   text-align: center;
+  height: fit-content;
 }
 
 .social-link:hover,
@@ -106,29 +106,47 @@
   transition: all 0.2s ease-in-out;
 }
 
-@media only screen and (min-width: 700px) {
-  .home-container h1 {
-    font-size: 3rem;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .home-container h1 {
-    font-size: 3.25rem;
-  }
-}
-
 @media only screen and (min-width: 1250px) {
-  .home-container h1 {
-    font-size: 3.75rem;
-  }
 
   .intro-container p {
     font-size: 1.5rem;
   }
   .link-container a {
     font-size: 1.75rem;
-    width: 9rem;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .home-container h1 {
+    font-size: 8rem;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .intro-container {
+    grid-template-columns: 100%;
+  }
+
+  .home-container h1 {
+    font-size: 6rem;
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .home-container h1 {
+    font-size: 5rem;
+  }
+
+  .intro-container p {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home-container h1 {
+    font-size: 4rem;
   }
 }
 

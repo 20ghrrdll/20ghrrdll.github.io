@@ -73,7 +73,7 @@ const About = () => {
   return (
     <>
       <div className="heading">
-        <h2>Experience and Education</h2>
+        <h2>EXPERIENCE & EDUCATION</h2>
       </div>
       {experience.map((experienceContent) => {
         return (

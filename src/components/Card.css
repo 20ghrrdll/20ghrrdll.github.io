@@ -62,10 +62,11 @@
 .card-body h4 {
   margin-top: 5px;
   font-size: 1.25rem;
+  font-weight: 100;
 }
 
 .card-body h2 {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 0px;
 }
 

@@ -13,8 +13,8 @@
   display: block;
   text-align: center;
   text-decoration: none;
-  font-family: 'Shippori Mincho', serif;
-  font-weight: 700;
+  font-family: "Trirong", serif;
+  font-weight: 600;
 }
 
 .icon{
@@ -30,7 +30,7 @@
 .page {
   position: relative;
   color: var(--dark-blue);
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   padding: 1rem 1.4rem;
 }
 

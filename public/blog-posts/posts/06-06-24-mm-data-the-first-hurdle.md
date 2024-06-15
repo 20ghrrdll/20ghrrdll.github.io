@@ -6,7 +6,7 @@ Before I could begin with building Manuscript Mate, I needed to know if I could 
 
 ### The Problem
 
-The data that Manuscript Mate hinges on does not exist in any existing free API. The goal of app is a searchable catalog of fiction works, so that means a lot of data on books. There are a handful of book-related APIs, but they all have some limitation. Some only have a small subset of books, some require signing up for a larger affiliate program,  and some are paid. Regardless, they don't seem to have the data the application depends on. So how have I built up a demo dataset?
+The data that Manuscript Mate hinges on does not exist in any existing free API. The goal of the app is a searchable catalog of fiction works, so that means a lot of data on books. There are a handful of book-related APIs, but they all have some limitation. Some only have a small subset of books, some require signing up for a larger affiliate program,  and some are paid. Regardless, they don't seem to have the data the application depends on. So how have I built up a demo dataset?
 
 Manually.
 
@@ -16,9 +16,7 @@ I soon realized that this was not scalable, even for constructing the demo datas
 
 Confidently, I said "Two."
 
-That person replied,  "So you'll be able to go through 120 books an hour..." with very kind and meaningful skepticism.
-
-And I brushed it off by saying I just need enough data for proof of concept. Ten hours in a bookstore or library, spread over a few days didn't sound so bad. To further ensure my data entry success, I brought out one of my all-time favorite tools: Google Forms.
+Ten hours in a bookstore or library, spread over a few days didn't sound so bad. To further ensure my data entry success, I brought out one of my all-time favorite tools: Google Forms.
 
 Google Forms has this handy feature where you can funnel the form data into Google Sheets for processing. I've used it in a range of situations (ie. apartment hunting). Here I made a form that would take in the relevant book data and pipe it to a form. Rather than fumbling with a spreadsheet on a phone or hauling my laptop through the shelves, I could fill out the form for each book.
 

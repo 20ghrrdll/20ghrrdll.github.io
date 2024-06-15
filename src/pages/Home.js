@@ -6,14 +6,15 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="greeting">
-        <img src={mePhoto} alt="Carah Alexander"/>
+        <h1>HI, I'M CARAH.</h1>
       </div>
       <div className="intro-container">
-        <h1>Hi! I'm Carah</h1>
-        <p>I'm a software engineer that's passionate about user experience! I like to build things that make life a little easier.</p>
-        <p> Previously worked at Figma and Squarespace. M.S. and B.S from Stanford University in Computer Science.</p>
-        <p>If I'm not writing code, I'm hopefully writing, running, or getting tangled in yarn.</p>
-        <p> Want to drop me a line? Find me below!</p>
+        <div>
+          <p>I like to build things that make life a little easier.</p>
+          <p> Previously @ <strong>Figma</strong> and <strong>Squarespace</strong>. Currently working on something new. M.S. and B.S from <strong>Stanford University</strong> in Computer Science.</p>
+          <p>If I'm not writing code, I'm hopefully on a horse, writing, or getting tangled in yarn.</p>
+          <p> Think we could work together? Drop me a line!</p>
+        </div>
         <div className="link-container">
           <a className="social-link" href="https://www.linkedin.com/in/carahalexander/">LinkedIn</a>
           <a className="social-link" href="https://github.com/20ghrrdll">Github</a>

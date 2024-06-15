@@ -14,15 +14,15 @@ const Nav = () => {
   return (
     <nav className="topnav" >
       <Link to="/" className="icon"><img src={initials} alt="Carah Alexander's initials"/></Link>
-      <NavLink to="/about" className={({ isActive }) => isActive ? "page active" : "page"}>About</NavLink>
-      <NavLink to="/projects" className={({ isActive }) => isActive ? "page active" : "page"}>Projects</NavLink>
-      <NavLink to="/blog" className={({ isActive }) => isActive ? "page active" : "page"}>Blog</NavLink>
+      <NavLink to="/about" className={({ isActive }) => isActive ? "page active" : "page"}>ABOUT</NavLink>
+      <NavLink to="/projects" className={({ isActive }) => isActive ? "page active" : "page"}>PROJECTS</NavLink>
+      <NavLink to="/blog" className={({ isActive }) => isActive ? "page active" : "page"}>BLOG</NavLink>
       <button className="dropdown-button" onClick={() => setIsDropdownOpen(!isDropdownOpen)}>&#9776;</button>
       {isDropdownOpen && (
         <div className="dropdown">
-          <NavLink to="/about" className={({ isActive }) => isActive ? "dropdown-page active" : "dropdown-page"}>About</NavLink>
-          <NavLink to="/projects" className={({ isActive }) => isActive ? "dropdown-page active" : "dropdown-page"}>Projects</NavLink>
-          <NavLink to="/blog" className={({ isActive }) => isActive ? "dropdown-page active" : "dropdown-page"}>Blog</NavLink>
+          <NavLink to="/about" className={({ isActive }) => isActive ? "dropdown-page active" : "dropdown-page"}>ABOUT</NavLink>
+          <NavLink to="/projects" className={({ isActive }) => isActive ? "dropdown-page active" : "dropdown-page"}>PROJECTS</NavLink>
+          <NavLink to="/blog" className={({ isActive }) => isActive ? "dropdown-page active" : "dropdown-page"}>BLOG</NavLink>
         </div>
       )}
     </nav>

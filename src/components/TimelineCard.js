@@ -10,7 +10,7 @@ const TimelineCard = ({
   responsibilities,
 }) => {
   return (
-    <Card title={title} date={date} isTimeline={true}>
+    <Card title={title.toUpperCase()} date={date} isTimeline={true}>
       <p className="card-detail">{description}</p>
       { responsibilities && (
         <ul className="responsibility">
