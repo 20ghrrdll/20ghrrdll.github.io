@@ -1,15 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.59864a94.css",
-    "main.js": "/static/js/main.52b81ec6.js",
-    "static/media/CircleHomePhoto.png": "/static/media/CircleHomePhoto.bf032cc09533334b6d7e.png",
+    "main.js": "/static/js/main.b4a668e0.js",
     "static/media/squareInitials.png": "/static/media/squareInitials.754d7323bda7cbd8fde8.png",
     "index.html": "/index.html",
     "main.59864a94.css.map": "/static/css/main.59864a94.css.map",
-    "main.52b81ec6.js.map": "/static/js/main.52b81ec6.js.map"
+    "main.b4a668e0.js.map": "/static/js/main.b4a668e0.js.map"
   },
   "entrypoints": [
     "static/css/main.59864a94.css",
-    "static/js/main.52b81ec6.js"
+    "static/js/main.b4a668e0.js"
   ]
 }
