@@ -1,7 +1,7 @@
 ## Five tips for conducting an strong needfinding interview
 #### June 24, 2024
 
-Needfinding interviews are the first step in building a product. Ideally, you do this before you write a line of code or draw a single screen of your spec. They can be incredibly valuable, *presuming that they're structured well.
+Needfinding interviews are the first step in building a product. Ideally, you do this before you write a line of code or draw a single screen of your spec. They can be incredibly valuable, presuming they're structured well.
 
 ### Why conduct Needfinding Interviews at all?
 
