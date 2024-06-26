@@ -1,5 +1,12 @@
 {
   "posts" : [
+    {
+      "id": "06-24-24-tips-for-needfinding-interviews",
+      "title": "Five tips for conducting an strong needfinding interview",
+      "date": "June 24, 2024",
+      "description": "Needfinding interviews are the first step in building a product. Ideally, you do this before you write a line of code or draw a single screen of your spec. They can be incredibly valuable, presuming that they're structured well.",
+      "tags": ["Design Thinking", "Product Development"]
+    },
      {
       "id": "06-06-24-mm-data-the-first-hurdle",
       "title": "Data: The first 'Manuscript Mates' hurdle",
@@ -18,6 +25,8 @@
   "tags": [
     "Website Update",
     "Manuscript Mate",
-    "Javascript"
+    "Javascript",
+    "Design Thinking",
+    "Product Development"
   ]
 }

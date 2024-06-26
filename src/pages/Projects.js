@@ -20,7 +20,7 @@ const Projects = () => {
       <div className="heading">
         <h2>PROJECTS</h2>
       </div>
-      <div className='content'>
+      <div className="projectContent">
         {projectData.map((datum, idx) => <ProjectCard {...datum} key={`${datum.title}-${idx}`}/>)}
       </div>
     </div>

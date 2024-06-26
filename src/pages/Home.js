@@ -1,5 +1,4 @@
 import React from 'react';
-import mePhoto from '../imgs/CircleHomePhoto.png';
 import "./Home.css"
 
 const Home = () => {

@@ -1,7 +1,7 @@
 .App {
   display: block;
   width: 85%;
-  margin: 100px auto 10vw;
+  margin: 15vw auto 10vw;
 }
 
 @media only screen and (max-width: 800px) {
@@ -15,6 +15,10 @@
   .heading {
    margin-top: 125px;
   }
+
+    .App {
+      max-width: 95%;
+    }
 
 }
 

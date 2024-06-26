@@ -6,6 +6,12 @@
   border-bottom: 2px var(--dark-blue) dashed;
 }
 
+@media only screen and (max-width: 600px) {
+  .project-card {
+    flex-direction: column;
+  }
+}
+
 .see-more-link {
   text-decoration: none;
 }
