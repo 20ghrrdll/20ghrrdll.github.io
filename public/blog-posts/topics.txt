@@ -1,7 +1,0 @@
-Topics:
-- [DONE] I now have a blog!
-- What is Manuscript Mate?
-- [DONE] The Tough Part: The Editor Data
-- Drafting the MM Design
-- Useful Github commands 
-- Finding users to serve
