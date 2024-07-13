@@ -3,6 +3,8 @@ Topics:
 - What is Manuscript Mate?
 - [DONE] The Tough Part: The Editor Data
 - [DONE] Needfinding Interview tips
+- How to make space in an interview
+- On the importance of the interview introduction
 - Drafting the MM Design
 - Useful Github commands 
 - Finding users to serve

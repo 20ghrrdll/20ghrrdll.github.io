@@ -1,8 +1,10 @@
-## Needfinding
+## On finding your userbase
 
 #### June 15, 2024
 
-On June 10th, I sent my first set of cold emails to the first user group I hope to serve. I was entering with a hypothesis and an open mind, but I admit I was still quite nervous. Oddly enough, this is a byproduct of how much I care about the users I hope to serve. Fiction is one of my greatest passions. I can't count the number of times I've been picked up and dusted off by a book that gave me new perspective.
+On June 10th, I sent my first set of cold emails to the first user group I hope to serve. I was entering with a hypothesis and an open mind, but I admit I was still quite nervous. This was a fear I had to overcome, because, after months of work, I realized I was doing the product development process backwards. 
+
+Oddly enough, this is a byproduct of how much I care about the users I hope to serve. Fiction is one of my greatest passions. I can't count the number of times I've been picked up and dusted off by a book that gave me new perspective.
 
 One day I hope to add a work of my own to bookshelves but that's on a much longer timeline than this project. It was the shift from being a reader to being a writer that highlighted some of the opportunities in the traditional publishing industry. On finding out that hundreds of thousands of books are published every year, my first thought was "what happened to the rest of them?" I found myself saddened that there might be all these books that I would love but never find.
 
