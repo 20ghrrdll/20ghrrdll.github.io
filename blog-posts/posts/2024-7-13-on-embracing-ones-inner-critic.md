@@ -13,7 +13,7 @@ After first starting this blog, I allowed it to sit dormant for almost a month. 
 
 I pull this term from articles and talks I've consumed in the creative writing space. Those pieces differentiated between the Inner Critic and the Inner Editor (I couldn't find them, but I found [a piece from MIT Sloan](https://mitsloan.mit.edu/ideas-made-to-matter/how-leaders-can-manage-their-own-inner-critic#:~:text=The%20inner%20editor%20is%20a,than%20shameful%20observations%2C%20Giardella%20said.) that does the same). I'll reiterate the difference here.
 
-One's Inner Critic is the voice in one's head that shows up with feedback that tears them down. Lets consider a piece one has sat down to write. The Inner Critic might say things like "You can't show this to anyone. They'll' think you're delusional for trying something you're so bad at." or "God, you'll never be good at this, you should just quit now." or "This structure is so clunky. You're a terrible writer."
+One's Inner Critic is the voice in one's head that shows up with feedback that tears them down. Lets consider a piece one has sat down to write. The Inner Critic might say things like "You can't show this to anyone. They'll think you're delusional for trying something you're so bad at." or "God, you'll never be good at this, you should just quit now." or "This structure is so clunky. You're a terrible writer."
 
 A hallmark of the Inner Critic is often it's incredibly cruel. It is cutting and mean, usually to a degree that one would never speak like that to another person. Yet that voice is alive and well in our own heads.
 
@@ -45,7 +45,7 @@ Spicy take, it's okay if that answer is no.
 
 There are only so many hours in the day (and, no, cutting back on sleep is not the answer). Dedicating oneself to one set of expertise inevitably sacrifices others. If I need to write a short story every month, then I cannot also spend that time painting or learning gymnastics.
 
-The thing is, I'd rather be a good writer and rather clumsy with water colors and unable to do a backflip. I'd rather have a beautiful story than have spent that same time doomscrolling online. Furthermore, I'd be rather sad if I tried to be a good writer and a master watercolorist and an accomplished gymnast. I'd likely fail to hit all three goals.
+The thing is, I'd rather be a good writer and rather clumsy with watercolors and unable to do a backflip. I'd rather have a beautiful story than have spent that same time doomscrolling online. Furthermore, I'd be rather sad if I tried to be a good writer and a master watercolorist and an accomplished gymnast. I'd likely fail to hit all three goals.
 
 What my Inner Critic noted is that I don't simply want to write but I want to write well. That's a non-trivial decision. Though it's conclusion was wrong, the observation of required effort is worth acknowledging.
 
@@ -53,23 +53,23 @@ What my Inner Critic noted is that I don't simply want to write but I want to wr
 
 The truth here is I do see many of my own mistakes. I have an aspirational notion of how I want to write (or ride, or run, or crochet). I notice how my outcomes aren't the same as the examples I admire. Someone once remarked to me on the incredible bravery of children. They're not at all ashamed of how terrible they are. A child will hand you a crayon scribble, and announce it's a duck. They do this even though they have seen several ducks for themselves and know it looks nothing like them. It is simply their best representation of a duck. They worked hard on it and they are proud.
 
-It is this genre of critique that I struggle with the most. Seeing my own mistakes is when I find myself tempted to quit or hide. I am so aware of all of the bits of my drawing that aren't quite ducky enough and disheartened by the fact that drawing was my best.
+It is this genre of critique that I struggle with the most. Seeing my own mistakes is when I find myself most tempted to quit or hide. I am so aware of all of the bits of my "drawing" that aren't quite ducky enough and disheartened by the fact that drawing was my best.
 
 However, I heard another interpretation of this inner critique that I love: "Thank goodness we know we suck. How else will we know we need to get better."
 
 All of those less ducky pieces, I now know to keep an eye on for the next time I draw a duck. Maybe I can study duck bills and practice drawing a few on my own. Maybe I could research the anatomy of duck wings so I understand the musculature. The fact that I see the lack of duckiness in places means that I've just identified opportunities to grow. Those inner critiques are gifts!
 
-However, and this is key, those inner critiques don't invalidate the crayon scribble duck.
+The key caveat to that notion? Those inner critiques don't invalidate the crayon scribble duck.
 
 I dare to propose that our example child has a right to be proud of their crayon scribble duck. Not only did they work hard, but they just learned to hold a crayon at all. They're just now observing and interpreting the world around them. This while doing a million other hard things like learning a new language and how to navigate a body that's outgrowing their shoes every six months. Doing a good job with the tools one has is still a good job. Full stop.
 
-Yes, it may not meet the expectations broadly held for 'ducks'.  However, in the sense that 'good' means 'to have positive value', it is precisely that. I'm at the bottom of my childhood development metaphors, but the point is, progress is inherently valuable. The vast majority of us don't vault from duck ignorance to duck expertise overnight. As a result, duck expertise is comprised of thousands of slightly less terrible ducks.
+Yes, their drawing may not meet the expectations broadly held for 'ducks'.  However, in the sense that 'good' means 'to have positive value', mission accomplished. I'm at the bottom of my well of childhood development metaphors, but the point is, progress is inherently valuable. The vast majority of us don't vault from duck ignorance to duck expertise overnight. As a result, duck expertise is comprised of thousands of slightly less terrible ducks.
 
 All of this to say that here, the Inner Critic has pointed out that the work I've done has yet to meet my aspirations. I'm glad I have a voice reminding me of what I want to achieve. That keeps me on track. Still, this should not diminish the feeling of accomplishment along the way. 
 
-### What does it mean to embrace your Inner Critic?
+### What does it mean to embrace one's Inner Critic?
 
-For starters, I'm no longer trying to silence it. I'm sitting with it just like I've outlined above and listening to what is motivating its harsh words. Ultimately, what my Inner Critic is trying to do is protect me from what it percieves as dangerous: external critique, unrealistic expectations, my own hubris. By sitting with it, I can unearth the dangers that it is trying to warn me about. With this knowledge, I can either act on them or present caveats that render the situation less dangerous.
+For starters, I'm no longer trying to silence it. I'm sitting with it just like I've outlined above and asking to what is motivating its harsh words. Ultimately, what my Inner Critic is trying to do is protect me from what it percieves as dangerous: external critique, unrealistic expectations, my own hubris. By sitting with it, I can unearth the dangers that it is trying to warn me about. With this knowledge, I can either act on them or present caveats that render the situation less dangerous. Hopefully, my listening to it will also let it know it can raise these concerns without needing to result to cruelty.
 
 Even as I write this, that Inner Critic has reared up with fears of overpromising. It's true that this approach is new to me. I don't know whether this will work in the long run. Furthermore, It is hard to forge new paths rather than returning to the well worn ones I've used for years. Yet, this is a skill that I believe is worth building. So even though I may struggle with it at first, be faced with my own skill-gaps, and certainly find it nerve wracking to share it with others, I'm continuing to engage with it. I'm hanging my crayon scribble on the fridge.
 
