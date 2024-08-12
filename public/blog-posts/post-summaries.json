@@ -1,30 +1,14 @@
 {
-  "draft-posts": [
-    {
-      "id": "file-name",
-      "title": "How to give folks opportunities to open up",
-      "date": "TBD",
-      "description": "Here's some text. And here's some more text.",
-      "tags": []
-    },
-    {
-      "id": "07-04-24-the-importance-of-introduction",
-      "title": "The importance of the interview introduction",
-      "date": "July 4, 2024",
-      "description": "As interviewers, I believe we often overlook the importance of the first five minutes of an interview. It may feel tempting to 'not waste time' and 'get to the good stuff'. On the contrary, in my experience on both sides of the table, the success of the interview is heavily impacted by the tone we set at the start.",
-      "tags": ["Design Thinking", "Technical Processes"]
-    },
-    {
-      "id": "file-name",
-      "title": "On finding your user base",
-      "date": "TBD",
-      "description": "On June 10th, I sent my first set of cold emails to the first user group I hope to serve. I was entering with a hypothesis and an open mind, but I admit I was still quite nervous. This was a fear I had to overcome, because, after months of work, I realized I was doing the product development process backwards.",
-      "tags": []
-    }
-  ],
   "posts" : [
     {
-      "id": "2024-7-13-on-embracing-ones-inner-critic",
+      "id":"24-08-12-how-to-dive-deeper-in-user-interviews",
+      "title": "How to dive deeper in user interviews",
+      "date": "August 12, 2024",
+      "description": "User interviews are only as helpful as the information our users provide. So what do we do when our user gives us short, non-specific answers? It can be tempting to feel that this is our interviewee’s ‘fault’. However, more times than not, we, the interviewers, are standing in their way.",
+      "tags": ["Design Thinking"]
+    },
+    {
+      "id": "24-7-13-on-embracing-ones-inner-critic",
       "title": "On embracing one's Inner Critic",
       "date": "July 13, 2024",
       "description": "After first starting this blog, I allowed it to sit dormant for almost a month. This was not because I wasn't writing, however. Instead, I was warring with my most frequent companion: my Inner Critic. Well no longer. I'm trying to befriend it instead.",
